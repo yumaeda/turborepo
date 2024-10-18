@@ -111,6 +111,12 @@ button.secondary {
   min-width: 180px;
 }
 
+.header {
+  font-size: 50px;
+  height: 100px;
+  padding: 32px;
+}
+
 .footer {
   font-family: var(--font-geist-sans);
   grid-row-start: 3;
@@ -178,6 +184,12 @@ button.secondary {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+
+  .header {
+    font-size: 50px;
+    height: 100px;
+    padding: 32px;
   }
 }
 
