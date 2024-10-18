@@ -21,6 +21,11 @@ nodenv rehash
 ```
 
 ### Turporepo
-```
+```zsh
 npx create-turbo@latest
+```
+
+## Running Locally
+```zsh
+pnpm dev
 ```
