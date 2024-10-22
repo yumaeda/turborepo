@@ -32,14 +32,6 @@ export default function Home() {
             />
             Deploy now
           </a>
-          <a
-            href="https://sakabas.com/ranking"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            フードランキング
-          </a>
         </div>
         <Button appName="web" className={styles.secondary}>
           Open alert

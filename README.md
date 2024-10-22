@@ -29,3 +29,6 @@ npx create-turbo@latest
 ```zsh
 pnpm dev
 ```
+
+## Reference
+- https://nextjs.org/docs
