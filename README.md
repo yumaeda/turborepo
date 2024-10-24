@@ -30,5 +30,9 @@ npx create-turbo@latest
 pnpm dev
 ```
 
+```zsh
+open -a "Google Chrome" --args --disable-web-security --user-data-dir="/tmp/chrome_dev"
+```
+
 ## Reference
 - https://nextjs.org/docs
