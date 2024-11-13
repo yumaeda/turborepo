@@ -2,8 +2,8 @@
  * @author Yukitaka Maeda [yumaeda@gmail.com]
  */
 import * as React from 'react'
-import * as GlobalConstants from '../config/constants'
-import styles from '../page.module.css'
+import * as GlobalConstants from '../../config/constants'
+import styles from '../../page.module.css'
 
 const Header: React.FC = () => {
     return (

@@ -1,6 +1,6 @@
 import styles from "../page.module.css"
-import Footer from "../components/Footer"
-import Header from "../components/Header"
+import Footer from "../components/Footer/Footer"
+import Header from "../components/Header/Header"
 import { API_URL, IMG_URL } from "../config/constants"
 import Ranking from "../interfaces/Ranking"
 import Image from "next/image"
