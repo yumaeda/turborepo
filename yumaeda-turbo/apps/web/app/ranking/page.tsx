@@ -2,17 +2,10 @@ import styles from "../page.module.css"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import { API_URL, IMG_URL } from "../config/constants"
+import Ranking from "../interfaces/Ranking"
+import Image from "next/image"
 
-interface Ranking {
-    dish: string
-    rank: number
-    restaurant: string
-    restaurant_id: string
-    photo: string
-    restaurant_url: string
-}
-
-export default async function Ranking() {
+export default async function RankingPage() {
     let data = await fetch(`${API_URL}/rankings/`)
     let posts = await data.json()
     const imageDir = `${IMG_URL}/images`
