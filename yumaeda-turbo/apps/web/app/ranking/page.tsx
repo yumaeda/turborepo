@@ -3,7 +3,6 @@ import Footer from "../components/Footer/Footer"
 import Header from "../components/Header/Header"
 import { API_URL, IMG_URL } from "../config/constants"
 import Ranking from "../interfaces/Ranking"
-import Image from "next/image"
 
 export default async function RankingPage() {
     let data = await fetch(`${API_URL}/rankings/`)
@@ -13,7 +12,6 @@ export default async function RankingPage() {
 
     return (
         <div className={styles.page}>
-            <Header />
             <main className={styles.main}>
                 <h1>フードランキング</h1>
                 <ul>
@@ -33,7 +31,6 @@ export default async function RankingPage() {
                         )}) : <div>Loading...</div>}
                     </ul>
             </main>
-            <Footer />
         </div>
     )
 }
