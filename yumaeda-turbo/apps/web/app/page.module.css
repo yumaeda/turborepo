@@ -111,6 +111,27 @@ button.secondary {
   min-width: 180px;
 }
 
+.navigationLabel {
+  font-size: 60px;
+  text-align: center;
+  margin: 60px 0 0 0;
+  color: palegoldenrod;
+}
+
+.navigationList {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  padding: 0;
+}
+
+.navigationItem {
+  font-size: 40px;
+  display: inline-block;
+  border: 1px dashed white;
+  padding: 20px 30px;
+}
+
 .footer {
   font-family: var(--font-geist-sans);
   grid-row-start: 3;
@@ -172,6 +193,27 @@ button.secondary {
 
   a.secondary {
     min-width: auto;
+  }
+
+  .navigationLabel {
+    font-size: 30px;
+    text-align: center;
+    margin: 60px 0 0 0;
+    color: palegoldenrod;
+  }
+
+  .navigationList {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .navigationItem {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px dashed white;
+    padding: 20px 30px;
   }
 
   .footer {
